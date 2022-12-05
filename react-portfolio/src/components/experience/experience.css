@@ -1,0 +1,40 @@
+.skill-name{
+    display: flex;
+    align-items: center;
+}
+.verified{
+    color: var(--color-primary);
+    margin-top: 0.4rem;
+}
+.skill-name h4{
+    margin: 0.8rem;
+    margin-bottom: 0.4rem;
+}
+.skill-box{
+    padding-bottom: 1rem;
+}
+.skill-box h6{
+    color: var(--color-light);
+    margin-left: 1.8rem;
+}
+.experience-container{
+    display: flex;
+    gap: 2rem;
+}
+.development{
+    flex: 1;
+    background-color: var(--color-bg-variant);
+    padding:4.5% 8%;
+    border-radius:2rem;
+
+}
+.development h3{
+    text-align: center;
+    color: var(--color-primary);
+    margin-bottom: 1.2rem;
+}
+.skill-list{
+    display: flex;
+    gap: 3rem;
+    
+}

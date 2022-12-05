@@ -1,0 +1,30 @@
+.p-card{
+    padding: 1.2rem;
+    border: 1px solid var(--color-primary-variant);
+    border-radius: 2.6rem;
+    background-color:var(--color-bg-variant);
+    transition: var(--transition);
+}
+.p-card:hover{
+    border-color:var(--color-bg-variant);
+    background-color:transparent;
+}
+
+.img-container img{
+    border-radius: 2.6rem;
+    min-width: 15rem;
+}
+.p-card p{
+    padding: 9% 0;
+
+}
+.p-card-buttons{
+    padding-bottom: 1.2rem;
+}
+.card-container{
+    display: grid;
+    gap:3rem;
+    grid-template-columns: repeat(3,1fr);
+    
+}
+

@@ -1,0 +1,35 @@
+.contact-container{
+    display: flex;
+    gap:10%;
+    justify-content: center;
+}
+.contact-box{
+    background-color:var(--color-bg-variant);
+    border-radius: 1.5rem;
+    padding: 1.2rem;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+.contact-box h5{
+    color:var(--color-light);
+    font-weight: 300;
+    margin-bottom: 0.5rem;
+}
+.contact-box h4{
+    font-weight: 400;
+}
+.form-container{
+    display: flex;
+    flex-direction: column;
+    gap:1rem;
+    width: 60%;
+}
+.form-container input,.form-container textarea{
+    border-radius: 0.8rem;
+    padding: 22px 20px;
+    background-color: transparent;
+    border: 1px solid var(--color-primary);
+}
+.contact-logo{
+    font-size: 1.5  rem;
+}

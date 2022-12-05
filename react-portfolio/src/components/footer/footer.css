@@ -1,0 +1,31 @@
+footer{
+    background-color: var(--color-primary);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 3.5rem;
+    padding-bottom: 7rem;
+}
+footer h2{
+    color: black;
+}
+footer .nav-items{
+    display: flex;
+    gap: 1.8rem;
+    padding: 2rem;
+}
+footer .nav-items li a{
+    color: rgba(0, 0, 0, 0.626);
+}
+.footer-icons{
+    display: flex;
+    gap :1rem;
+}
+.footer-icons div{
+    background-color: black;
+    padding: 0.8rem;
+    aspect-ratio: 1/1;
+    display: flex;
+    border-radius: 0.7rem;
+    
+}

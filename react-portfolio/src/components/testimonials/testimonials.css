@@ -1,0 +1,41 @@
+
+.t-slide{
+    background-color: var(--color-bg-variant);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+    border-radius: 3rem;
+    width: 65%;
+    margin: 0 auto;
+    padding-bottom: 3rem;
+
+}
+.t-slide img{
+    width: 4.2rem;
+    aspect-ratio: 1/1;
+    border-radius: 50%;
+    padding: 0;
+    border: 0.35rem solid var(--color-primary-variant);
+}
+.t-slide p{
+    width: 70%;
+    text-align: center;
+    color: var(--color-light);
+}
+.t-slide h5{
+    padding:1rem;
+}
+
+.swiper-scrollbar{
+    background: transparent;
+}
+.swiper-slide.swiper-slide-active{
+    padding-bottom: 4rem;
+}
+.swiper-button-next:after,.swiper-button-prev:after{
+    padding-bottom:4rem ;
+}
+.swiper-scrollbar{
+    background: transparent;
+}
